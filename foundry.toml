@@ -1,0 +1,37 @@
+[profile.default]
+solc-version = "0.8.10"
+ #auto_detect_solc = false
+src = 'contracts'
+test = 'test_forge'
+out = 'artifacts_forge'
+libs = ['lib']
+remappings = [
+    '@chainlink/contracts/src=node_modules/@chainlink/contracts/src/',
+    '@ds-test=lib/ds-test/src/',
+    '@openzeppelin=node_modules/@openzeppelin/',
+    '@chainlink=node_modules/@chainlink/',
+    '@std=lib/forge-std/src/',
+    'contracts/=contracts/',
+]
+libraries = []
+cache = true
+force = false
+evm_version = 'london'
+optimizer = true
+optimizer_runs = 500000
+verbosity = 0
+#ignored_error_codes = []
+#fuzz_runs = 256
+#ffi = false
+#sender = '0x0'
+#tx_origin = '0x0'
+#initial_balance = '0xffffffffffffffffffffffff'
+#block_number = 0
+#chain_id = 1
+#gas_limit = 9223372036854775807
+#gas_price = 0
+#block_base_fee_per_gas = 0
+#block_coinbase = '0x0000000000000000000000000000000000000000'
+#block_timestamp = 0
+#block_difficulty = 0
+
