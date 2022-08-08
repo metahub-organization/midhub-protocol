@@ -1,1 +1,1 @@
-# midhub-core
+Midhub is an open-source, modular, and community-driven on-chain SVG NFT DID protocol built on Polygon, providing developers/creators with easier approach to build Web3 community and on-chain DAO. Midhub protocol has built-in incentive mechanism to stimulate the DID ecology, clearing with the treasury protocol.
